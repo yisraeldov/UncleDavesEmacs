@@ -979,8 +979,7 @@ it in the appropriate color. This is a lot cooler than you may think.
 #+BEGIN_SRC emacs-lisp
   (use-package rainbow-mode
     :ensure t
-    :init
-      (add-hook 'prog-mode-hook 'rainbow-mode))
+    :hook prog-mode)
 #+END_SRC
 
 ** Show parens
